@@ -4,8 +4,8 @@ ReconGraph
 
 ## Links
 
-- Public repository: https://github.com/iamaanahmad/theGraph
-- Permanent demo: https://iamaanahmad.github.io/theGraph/
+- Public repository: https://github.com/iamaanahmad/ReconGraph
+- Permanent demo: https://iamaanahmad.github.io/ReconGraph/
 
 ## Tagline
 
@@ -64,7 +64,7 @@ With Node.js 22: run `npm ci`, `npm run check`, `npx playwright install chromium
 
 ## Demo instructions
 
-Open the [permanent demo](https://iamaanahmad.github.io/theGraph/), run the seeded reconciliation, select `pay_025` for the accepted ambiguous edge, then select `pay_027` for the deliberate refusal. Use **Reset demo** to restore the start. Full cues and fallbacks are in [DEMO.md](DEMO.md).
+Open the [permanent demo](https://iamaanahmad.github.io/ReconGraph/), run the seeded reconciliation, select `pay_025` for the accepted ambiguous edge, then select `pay_027` for the deliberate refusal. Use **Reset demo** to restore the start. Full cues and fallbacks are in [DEMO.md](DEMO.md).
 
 ## Screenshots
 
