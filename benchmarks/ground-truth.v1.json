@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "recon-ground-truth-v1",
+  "batchVersion": "recon-batch-v1",
+  "decisions": [
+    {
+      "sourceId": "pay_001",
+      "targetId": "ord_001"
+    },
+    {
+      "sourceId": "pay_002",
+      "targetId": "ord_002"
+    },
+    {
+      "sourceId": "pay_003",
+      "targetId": "ord_003"
+    },
+    {
+      "sourceId": "pay_004",
+      "targetId": "ord_004"
+    },
+    {
+      "sourceId": "pay_005",
+      "targetId": "ord_005"
+    },
+    {
+      "sourceId": "pay_006",
+      "targetId": "ord_006"
+    },
+    {
+      "sourceId": "pay_007",
+      "targetId": "ord_007"
+    },
+    {
+      "sourceId": "pay_008",
+      "targetId": "ord_008"
+    },
+    {
+      "sourceId": "pay_009",
+      "targetId": "ord_009"
+    },
+    {
+      "sourceId": "pay_010",
+      "targetId": "ord_010"
+    },
+    {
+      "sourceId": "pay_011",
+      "targetId": "ord_011"
+    },
+    {
+      "sourceId": "pay_012",
+      "targetId": "ord_012"
+    },
+    {
+      "sourceId": "pay_013",
+      "targetId": "ord_013"
+    },
+    {
+      "sourceId": "pay_014",
+      "targetId": "ord_014"
+    },
+    {
+      "sourceId": "pay_015",
+      "targetId": "ord_015"
+    },
+    {
+      "sourceId": "pay_016",
+      "targetId": "ord_016"
+    },
+    {
+      "sourceId": "pay_017",
+      "targetId": "ord_017"
+    },
+    {
+      "sourceId": "pay_018",
+      "targetId": "ord_018"
+    },
+    {
+      "sourceId": "pay_019",
+      "targetId": "ord_019"
+    },
+    {
+      "sourceId": "pay_020",
+      "targetId": "ord_020"
+    },
+    {
+      "sourceId": "pay_021",
+      "targetId": "ord_021"
+    },
+    {
+      "sourceId": "pay_022",
+      "targetId": "ord_022"
+    },
+    {
+      "sourceId": "pay_023",
+      "targetId": "ord_023"
+    },
+    {
+      "sourceId": "pay_024",
+      "targetId": "ord_024"
+    },
+    {
+      "sourceId": "pay_025",
+      "targetId": "ord_025"
+    },
+    {
+      "sourceId": "pay_026",
+      "targetId": "ord_026"
+    },
+    {
+      "sourceId": "pay_027",
+      "targetId": "ord_027"
+    },
+    {
+      "sourceId": "pay_028",
+      "targetId": "ord_028"
+    },
+    {
+      "sourceId": "pay_029",
+      "targetId": null
+    },
+    {
+      "sourceId": "pay_030",
+      "targetId": null
+    },
+    {
+      "sourceId": "rfnd_001",
+      "targetId": "pay_001"
+    },
+    {
+      "sourceId": "rfnd_002",
+      "targetId": "pay_002"
+    },
+    {
+      "sourceId": "rfnd_003",
+      "targetId": "pay_003"
+    },
+    {
+      "sourceId": "rfnd_004",
+      "targetId": "pay_004"
+    },
+    {
+      "sourceId": "rfnd_005",
+      "targetId": "pay_005"
+    },
+    {
+      "sourceId": "rfnd_006",
+      "targetId": "pay_006"
+    },
+    {
+      "sourceId": "rfnd_007",
+      "targetId": "pay_007"
+    },
+    {
+      "sourceId": "rfnd_008",
+      "targetId": "pay_008"
+    },
+    {
+      "sourceId": "rfnd_009",
+      "targetId": "pay_009"
+    },
+    {
+      "sourceId": "rfnd_010",
+      "targetId": null
+    },
+    {
+      "sourceId": "stl_001",
+      "targetId": "pay_001"
+    },
+    {
+      "sourceId": "stl_002",
+      "targetId": "pay_002"
+    },
+    {
+      "sourceId": "stl_003",
+      "targetId": "pay_003"
+    },
+    {
+      "sourceId": "stl_004",
+      "targetId": "pay_004"
+    },
+    {
+      "sourceId": "stl_005",
+      "targetId": "pay_005"
+    },
+    {
+      "sourceId": "stl_006",
+      "targetId": "pay_006"
+    },
+    {
+      "sourceId": "stl_007",
+      "targetId": "pay_007"
+    },
+    {
+      "sourceId": "stl_008",
+      "targetId": "pay_008"
+    },
+    {
+      "sourceId": "stl_009",
+      "targetId": "pay_009"
+    },
+    {
+      "sourceId": "stl_010",
+      "targetId": "pay_010"
+    },
+    {
+      "sourceId": "stl_011",
+      "targetId": "rfnd_001"
+    },
+    {
+      "sourceId": "stl_012",
+      "targetId": "rfnd_002"
+    },
+    {
+      "sourceId": "stl_013",
+      "targetId": "rfnd_003"
+    },
+    {
+      "sourceId": "stl_014",
+      "targetId": null
+    }
+  ]
+}

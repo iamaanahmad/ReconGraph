@@ -1,0 +1,19 @@
+# ReconGraph
+
+ReconGraph is a deterministic, offline-first finance-reconciliation prototype built for Razorpay AI Buildathon Track 4.
+
+## Important evidence boundary
+
+All displayed finance records are synthetic. Benchmark results are measured against a separately stored held-out fixture. The app has no production Razorpay account, customer data, external model, or money-moving capability.
+
+## Public pages
+
+- [Interactive seeded reconciliation demo](/)
+- [Deterministic result checkpoint](/?state=success)
+- [Empty-state checkpoint](/?state=empty)
+- [Validation-error checkpoint](/?state=error)
+- [Offline-mode checkpoint](/?state=offline)
+
+## Context
+
+- [Razorpay AI Buildathon](https://razorpay.com/buildathon/)
