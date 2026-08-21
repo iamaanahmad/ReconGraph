@@ -6,6 +6,8 @@ Reconcile every record. Refuse the unsafe ones.
 
 ReconGraph is a deterministic AI finance-controller prototype for Razorpay AI Buildathon Track 4. It turns orders, payments, refunds, settlements, and webhook deliveries into an explainable reconciliation graph, while deliberately abstaining when evidence is tied or insufficient.
 
+**Live demo:** [iamaanahmad.github.io/theGraph](https://iamaanahmad.github.io/theGraph/)
+
 > Evidence label: all product data and benchmark traffic are **SIMULATED** and shown through a **LIVE SEEDED REPLAY**. No production Razorpay account, customer data, or external model is used.
 
 ## Problem
@@ -73,7 +75,7 @@ No environment values are required. `.env.example` documents that boundary. Exac
 
 ## Demo instructions
 
-1. Open the app and confirm the `Synthetic data · live seeded replay` label.
+1. Open the [permanent GitHub Pages demo](https://iamaanahmad.github.io/theGraph/) and confirm the `Synthetic data · live seeded replay` label.
 2. Select **Run seeded reconciliation**.
 3. Read the measured result strip, then select `pay_025` to inspect an accepted ambiguous edge.
 4. Select `pay_027` to see the controller refuse two tied candidates.
