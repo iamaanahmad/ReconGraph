@@ -1,10 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { App } from "./App";
+import { initializeAnalytics } from "./analytics";
 import "./styles.css";
 
 const root = document.getElementById("root");
 if (!root) throw new Error("ReconGraph root element is missing");
+
+initializeAnalytics();
 
 createRoot(root).render(
   <StrictMode>

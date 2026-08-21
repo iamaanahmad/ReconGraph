@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { captureReconciliationCompleted, captureReconciliationStarted } from "./analytics";
 import benchmarkJson from "./data/benchmark-results.v1.json";
 import batchJson from "./data/recon-batch.v1.json";
 import { runReconciliation } from "./domain/reconcile";
@@ -13,6 +14,10 @@ type ViewState = "initial" | "loading" | "success" | "empty" | "error";
 
 const batch = batchJson as FixtureBatch;
 const benchmark = benchmarkJson as BenchmarkResult;
+const batchRecordCount = Object.values(batch.records).reduce(
+  (total, records) => total + records.length,
+  0,
+);
 
 function formatPercent(value: number): string {
   return `${(value * 100).toFixed(value === 1 ? 0 : 1)}%`;
@@ -408,13 +413,22 @@ export function App() {
   }, []);
 
   function runDemo() {
+    captureReconciliationStarted(batch.schemaVersion, batchRecordCount);
     setView("loading");
     setStage(0);
     const first = window.setTimeout(() => setStage(1), 350);
     const second = window.setTimeout(() => setStage(2), 700);
     const finish = window.setTimeout(() => {
       try {
-        setResult(runReconciliation(batch));
+        const reconciliation = runReconciliation(batch);
+        setResult(reconciliation);
+        captureReconciliationCompleted({
+          batchVersion: reconciliation.batchVersion,
+          recordsProcessed: reconciliation.recordsProcessed,
+          matchedCount: reconciliation.matchedCount,
+          unresolvedCount: reconciliation.unresolvedCount,
+          duplicatesSuppressed: reconciliation.eventRecovery.duplicatesSuppressed,
+        });
         setView("success");
         window.requestAnimationFrame(() =>
           document
