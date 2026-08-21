@@ -4,7 +4,7 @@
 
 Reconcile every record. Refuse the unsafe ones.
 
-ReconGraph is a deterministic AI finance-controller prototype for Razorpay AI Buildathon Track 4. It turns orders, payments, refunds, settlements, and webhook deliveries into an explainable reconciliation graph, while deliberately abstaining when evidence is tied or insufficient.
+ReconGraph is a deterministic AI finance-controller prototype. It turns orders, payments, refunds, settlements, and webhook deliveries into an explainable reconciliation graph, while deliberately abstaining when evidence is tied or insufficient.
 
 **Live demo:** [iamaanahmad.github.io/ReconGraph](https://iamaanahmad.github.io/ReconGraph/)
 
@@ -46,9 +46,9 @@ flowchart LR
   J --> K
 ```
 
-## Sponsor technology
+## Domain model
 
-The domain model follows Razorpay’s payment lifecycle: orders, payments, refunds, settlements, and webhook events. The current submission uses synthetic Razorpay-shaped records so judges can run it without keys or money movement. A production adapter is intentionally out of scope; it would verify Razorpay webhook signatures before converting events into this same bounded internal schema.
+The domain model follows Razorpay’s payment lifecycle: orders, payments, refunds, settlements, and webhook events. The project uses synthetic Razorpay-shaped records so it runs without keys or money movement. A production adapter is intentionally out of scope; it would verify Razorpay webhook signatures before converting events into this same bounded internal schema.
 
 ## Key features
 
@@ -73,21 +73,19 @@ npm run dev
 
 No environment values are required. `.env.example` documents that boundary. Exact dependency versions are pinned in `package-lock.json`.
 
-## Demo instructions
+## Usage
 
-1. Open the [permanent GitHub Pages demo](https://iamaanahmad.github.io/ReconGraph/) and confirm the `Synthetic data · live seeded replay` label.
+1. Open the [live demo](https://iamaanahmad.github.io/ReconGraph/) and confirm the `Synthetic data · live seeded replay` label.
 2. Select **Run seeded reconciliation**.
 3. Read the measured result strip, then select `pay_025` to inspect an accepted ambiguous edge.
 4. Select `pay_027` to see the controller refuse two tied candidates.
 5. Select **Reset demo** to restore the known start state.
 
-Checkpoint routes: `/?state=success`, `/?state=empty`, `/?state=error`, and `/?state=offline`. The full presenter script and fallback ladder are in [DEMO.md](DEMO.md).
+Checkpoint routes: `/?state=success`, `/?state=empty`, `/?state=error`, and `/?state=offline`.
 
 ## Screenshots
 
 ![ReconGraph reconciliation workspace](docs/images/recongraph-overview.png)
-
-The current build is also captured in the workspace Assets tab as `recongraph-verify.png`.
 
 ## Technical challenges
 
@@ -103,10 +101,6 @@ On the versioned synthetic fixture, ReconGraph processes **127 records**, makes 
 - Learn score calibration from consented, de-identified operator decisions.
 - Add maker-checker approval and an append-only audit export.
 - Evaluate on larger, independently authored fixtures and real-world failure distributions.
-
-## Team information
-
-Built for Razorpay AI Buildathon Track 4. Student eligibility and final participant identity must be confirmed by the submitter before entry. See [SUBMISSION-CHECKLIST.md](SUBMISSION-CHECKLIST.md) for the remaining founder-owned gates.
 
 ## Verification
 
