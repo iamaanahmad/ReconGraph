@@ -1,0 +1,1260 @@
+{
+  "schemaVersion": "recon-batch-v1",
+  "label": "Synthetic Razorpay-shaped close batch v1",
+  "proofStrength": "SIMULATED",
+  "presentationMedium": "LIVE SEEDED REPLAY",
+  "generatedBy": "scripts/generate-fixture.ts",
+  "records": {
+    "orders": [
+      {
+        "type": "order",
+        "id": "ord_001",
+        "amount": 111700,
+        "currency": "INR",
+        "customerRef": "cust_001",
+        "receipt": "rcpt_001",
+        "createdAt": "2026-08-18T11:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_002",
+        "amount": 123400,
+        "currency": "INR",
+        "customerRef": "cust_002",
+        "receipt": "rcpt_002",
+        "createdAt": "2026-08-18T13:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_003",
+        "amount": 135100,
+        "currency": "INR",
+        "customerRef": "cust_003",
+        "receipt": "rcpt_003",
+        "createdAt": "2026-08-18T15:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_004",
+        "amount": 146800,
+        "currency": "INR",
+        "customerRef": "cust_004",
+        "receipt": "rcpt_004",
+        "createdAt": "2026-08-18T17:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_005",
+        "amount": 158500,
+        "currency": "INR",
+        "customerRef": "cust_005",
+        "receipt": "rcpt_005",
+        "createdAt": "2026-08-18T19:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_006",
+        "amount": 170200,
+        "currency": "INR",
+        "customerRef": "cust_006",
+        "receipt": "rcpt_006",
+        "createdAt": "2026-08-18T21:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_007",
+        "amount": 181900,
+        "currency": "INR",
+        "customerRef": "cust_007",
+        "receipt": "rcpt_007",
+        "createdAt": "2026-08-18T23:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_008",
+        "amount": 193600,
+        "currency": "INR",
+        "customerRef": "cust_008",
+        "receipt": "rcpt_008",
+        "createdAt": "2026-08-19T01:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_009",
+        "amount": 205300,
+        "currency": "INR",
+        "customerRef": "cust_009",
+        "receipt": "rcpt_009",
+        "createdAt": "2026-08-19T03:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_010",
+        "amount": 217000,
+        "currency": "INR",
+        "customerRef": "cust_010",
+        "receipt": "rcpt_010",
+        "createdAt": "2026-08-19T05:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_011",
+        "amount": 228700,
+        "currency": "INR",
+        "customerRef": "cust_011",
+        "receipt": "rcpt_011",
+        "createdAt": "2026-08-19T07:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_012",
+        "amount": 240400,
+        "currency": "INR",
+        "customerRef": "cust_001",
+        "receipt": "rcpt_012",
+        "createdAt": "2026-08-19T09:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_013",
+        "amount": 252100,
+        "currency": "INR",
+        "customerRef": "cust_002",
+        "receipt": "rcpt_013",
+        "createdAt": "2026-08-19T11:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_014",
+        "amount": 263800,
+        "currency": "INR",
+        "customerRef": "cust_003",
+        "receipt": "rcpt_014",
+        "createdAt": "2026-08-19T13:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_015",
+        "amount": 275500,
+        "currency": "INR",
+        "customerRef": "cust_004",
+        "receipt": "rcpt_015",
+        "createdAt": "2026-08-19T15:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_016",
+        "amount": 287200,
+        "currency": "INR",
+        "customerRef": "cust_005",
+        "receipt": "rcpt_016",
+        "createdAt": "2026-08-19T17:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_017",
+        "amount": 298900,
+        "currency": "INR",
+        "customerRef": "cust_006",
+        "receipt": "rcpt_017",
+        "createdAt": "2026-08-19T19:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_018",
+        "amount": 310600,
+        "currency": "INR",
+        "customerRef": "cust_007",
+        "receipt": "rcpt_018",
+        "createdAt": "2026-08-19T21:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_019",
+        "amount": 322300,
+        "currency": "INR",
+        "customerRef": "cust_008",
+        "receipt": "rcpt_019",
+        "createdAt": "2026-08-19T23:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_020",
+        "amount": 334000,
+        "currency": "INR",
+        "customerRef": "cust_009",
+        "receipt": "rcpt_020",
+        "createdAt": "2026-08-20T01:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_021",
+        "amount": 345700,
+        "currency": "INR",
+        "customerRef": "cust_010",
+        "receipt": "rcpt_021",
+        "createdAt": "2026-08-20T03:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_022",
+        "amount": 357400,
+        "currency": "INR",
+        "customerRef": "cust_011",
+        "receipt": "rcpt_022",
+        "createdAt": "2026-08-20T05:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_023",
+        "amount": 369100,
+        "currency": "INR",
+        "customerRef": "cust_001",
+        "receipt": "rcpt_023",
+        "createdAt": "2026-08-20T07:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_024",
+        "amount": 380800,
+        "currency": "INR",
+        "customerRef": "cust_002",
+        "receipt": "rcpt_024",
+        "createdAt": "2026-08-20T09:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_025",
+        "amount": 438500,
+        "currency": "INR",
+        "customerRef": "cust_amb_2526",
+        "receipt": "rcpt_025",
+        "createdAt": "2026-08-20T11:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_026",
+        "amount": 438500,
+        "currency": "INR",
+        "customerRef": "cust_amb_2526",
+        "receipt": "rcpt_026",
+        "createdAt": "2026-08-20T17:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_027",
+        "amount": 612400,
+        "currency": "INR",
+        "customerRef": "cust_amb_2728",
+        "receipt": "rcpt_027",
+        "createdAt": "2026-08-21T05:00:00.000Z"
+      },
+      {
+        "type": "order",
+        "id": "ord_028",
+        "amount": 612400,
+        "currency": "INR",
+        "customerRef": "cust_amb_2728",
+        "receipt": "rcpt_028",
+        "createdAt": "2026-08-21T05:04:00.000Z"
+      }
+    ],
+    "payments": [
+      {
+        "type": "payment",
+        "id": "pay_001",
+        "orderId": "ord_001",
+        "amount": 111700,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_001",
+        "bankReference": "bank_001",
+        "createdAt": "2026-08-18T11:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_002",
+        "orderId": "ord_002",
+        "amount": 123400,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_002",
+        "bankReference": "bank_002",
+        "createdAt": "2026-08-18T13:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_003",
+        "orderId": "ord_003",
+        "amount": 135100,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_003",
+        "bankReference": "bank_003",
+        "createdAt": "2026-08-18T15:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_004",
+        "orderId": "ord_004",
+        "amount": 146800,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_004",
+        "bankReference": "bank_004",
+        "createdAt": "2026-08-18T17:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_005",
+        "orderId": "ord_005",
+        "amount": 158500,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_005",
+        "bankReference": "bank_005",
+        "createdAt": "2026-08-18T19:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_006",
+        "orderId": "ord_006",
+        "amount": 170200,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_006",
+        "bankReference": "bank_006",
+        "createdAt": "2026-08-18T21:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_007",
+        "orderId": "ord_007",
+        "amount": 181900,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_007",
+        "bankReference": "bank_007",
+        "createdAt": "2026-08-18T23:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_008",
+        "orderId": "ord_008",
+        "amount": 193600,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_008",
+        "bankReference": "bank_008",
+        "createdAt": "2026-08-19T01:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_009",
+        "orderId": "ord_009",
+        "amount": 205300,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_009",
+        "bankReference": "bank_009",
+        "createdAt": "2026-08-19T03:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_010",
+        "orderId": "ord_010",
+        "amount": 217000,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_010",
+        "bankReference": "bank_010",
+        "createdAt": "2026-08-19T05:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_011",
+        "orderId": "ord_011",
+        "amount": 228700,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_011",
+        "bankReference": "bank_011",
+        "createdAt": "2026-08-19T07:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_012",
+        "orderId": "ord_012",
+        "amount": 240400,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_001",
+        "bankReference": "bank_012",
+        "createdAt": "2026-08-19T09:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_013",
+        "orderId": "ord_013",
+        "amount": 252100,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_002",
+        "bankReference": "bank_013",
+        "createdAt": "2026-08-19T11:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_014",
+        "orderId": "ord_014",
+        "amount": 263800,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_003",
+        "bankReference": "bank_014",
+        "createdAt": "2026-08-19T13:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_015",
+        "orderId": "ord_015",
+        "amount": 275500,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_004",
+        "bankReference": "bank_015",
+        "createdAt": "2026-08-19T15:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_016",
+        "orderId": "ord_016",
+        "amount": 287200,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_005",
+        "bankReference": "bank_016",
+        "createdAt": "2026-08-19T17:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_017",
+        "orderId": "ord_017",
+        "amount": 298900,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_006",
+        "bankReference": "bank_017",
+        "createdAt": "2026-08-19T19:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_018",
+        "orderId": "ord_018",
+        "amount": 310600,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_007",
+        "bankReference": "bank_018",
+        "createdAt": "2026-08-19T21:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_019",
+        "orderId": "ord_019",
+        "amount": 322300,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_008",
+        "bankReference": "bank_019",
+        "createdAt": "2026-08-19T23:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_020",
+        "orderId": "ord_020",
+        "amount": 334000,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_009",
+        "bankReference": "bank_020",
+        "createdAt": "2026-08-20T01:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_021",
+        "orderId": "ord_021",
+        "amount": 345700,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_010",
+        "bankReference": "bank_021",
+        "createdAt": "2026-08-20T03:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_022",
+        "orderId": "ord_022",
+        "amount": 357400,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_011",
+        "bankReference": "bank_022",
+        "createdAt": "2026-08-20T05:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_023",
+        "orderId": "ord_023",
+        "amount": 369100,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_001",
+        "bankReference": "bank_023",
+        "createdAt": "2026-08-20T07:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_024",
+        "orderId": "ord_024",
+        "amount": 380800,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_002",
+        "bankReference": "bank_024",
+        "createdAt": "2026-08-20T09:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_025",
+        "orderId": null,
+        "amount": 438500,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_amb_2526",
+        "bankReference": "bank_025",
+        "createdAt": "2026-08-20T11:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_026",
+        "orderId": null,
+        "amount": 438500,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_amb_2526",
+        "bankReference": "bank_026",
+        "createdAt": "2026-08-20T17:03:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_027",
+        "orderId": null,
+        "amount": 612400,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_amb_2728",
+        "bankReference": "bank_027",
+        "createdAt": "2026-08-21T05:02:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_028",
+        "orderId": "ord_028",
+        "amount": 612400,
+        "currency": "INR",
+        "status": "captured",
+        "customerRef": "cust_amb_2728",
+        "bankReference": "bank_028",
+        "createdAt": "2026-08-21T05:07:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_029",
+        "orderId": null,
+        "amount": 999900,
+        "currency": "INR",
+        "status": "failed",
+        "customerRef": null,
+        "bankReference": null,
+        "createdAt": "2026-08-22T22:00:00.000Z"
+      },
+      {
+        "type": "payment",
+        "id": "pay_030",
+        "orderId": null,
+        "amount": 777700,
+        "currency": "INR",
+        "status": "failed",
+        "customerRef": null,
+        "bankReference": null,
+        "createdAt": "2026-08-22T23:00:00.000Z"
+      }
+    ],
+    "refunds": [
+      {
+        "type": "refund",
+        "id": "rfnd_001",
+        "paymentId": "pay_001",
+        "amount": 27925,
+        "currency": "INR",
+        "status": "processed",
+        "bankReference": "rfbank_001",
+        "createdAt": "2026-08-18T23:03:00.000Z"
+      },
+      {
+        "type": "refund",
+        "id": "rfnd_002",
+        "paymentId": "pay_002",
+        "amount": 30850,
+        "currency": "INR",
+        "status": "processed",
+        "bankReference": "rfbank_002",
+        "createdAt": "2026-08-19T01:03:00.000Z"
+      },
+      {
+        "type": "refund",
+        "id": "rfnd_003",
+        "paymentId": "pay_003",
+        "amount": 33775,
+        "currency": "INR",
+        "status": "processed",
+        "bankReference": "rfbank_003",
+        "createdAt": "2026-08-19T03:03:00.000Z"
+      },
+      {
+        "type": "refund",
+        "id": "rfnd_004",
+        "paymentId": "pay_004",
+        "amount": 36700,
+        "currency": "INR",
+        "status": "processed",
+        "bankReference": "rfbank_004",
+        "createdAt": "2026-08-19T05:03:00.000Z"
+      },
+      {
+        "type": "refund",
+        "id": "rfnd_005",
+        "paymentId": "pay_005",
+        "amount": 39625,
+        "currency": "INR",
+        "status": "processed",
+        "bankReference": "rfbank_005",
+        "createdAt": "2026-08-19T07:03:00.000Z"
+      },
+      {
+        "type": "refund",
+        "id": "rfnd_006",
+        "paymentId": "pay_006",
+        "amount": 42550,
+        "currency": "INR",
+        "status": "processed",
+        "bankReference": "rfbank_006",
+        "createdAt": "2026-08-19T09:03:00.000Z"
+      },
+      {
+        "type": "refund",
+        "id": "rfnd_007",
+        "paymentId": "pay_007",
+        "amount": 45475,
+        "currency": "INR",
+        "status": "processed",
+        "bankReference": "rfbank_007",
+        "createdAt": "2026-08-19T11:03:00.000Z"
+      },
+      {
+        "type": "refund",
+        "id": "rfnd_008",
+        "paymentId": "pay_008",
+        "amount": 48400,
+        "currency": "INR",
+        "status": "processed",
+        "bankReference": "rfbank_008",
+        "createdAt": "2026-08-19T13:03:00.000Z"
+      },
+      {
+        "type": "refund",
+        "id": "rfnd_009",
+        "paymentId": null,
+        "amount": 51325,
+        "currency": "INR",
+        "status": "processed",
+        "bankReference": "bank_009",
+        "createdAt": "2026-08-19T15:03:00.000Z"
+      },
+      {
+        "type": "refund",
+        "id": "rfnd_010",
+        "paymentId": null,
+        "amount": 54250,
+        "currency": "INR",
+        "status": "processed",
+        "bankReference": null,
+        "createdAt": "2026-08-19T17:03:00.000Z"
+      }
+    ],
+    "settlements": [
+      {
+        "type": "settlement",
+        "id": "stl_001",
+        "sourceId": "pay_001",
+        "amount": 111420,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "stlbank_001",
+        "settledAt": "2026-08-22T14:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_002",
+        "sourceId": "pay_002",
+        "amount": 123120,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "stlbank_002",
+        "settledAt": "2026-08-22T15:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_003",
+        "sourceId": "pay_003",
+        "amount": 134820,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "stlbank_003",
+        "settledAt": "2026-08-22T16:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_004",
+        "sourceId": "pay_004",
+        "amount": 146520,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "stlbank_004",
+        "settledAt": "2026-08-22T17:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_005",
+        "sourceId": "pay_005",
+        "amount": 158220,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "stlbank_005",
+        "settledAt": "2026-08-22T18:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_006",
+        "sourceId": "pay_006",
+        "amount": 169920,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "stlbank_006",
+        "settledAt": "2026-08-22T19:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_007",
+        "sourceId": "pay_007",
+        "amount": 181620,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "stlbank_007",
+        "settledAt": "2026-08-22T20:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_008",
+        "sourceId": "pay_008",
+        "amount": 193320,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "stlbank_008",
+        "settledAt": "2026-08-22T21:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_009",
+        "sourceId": "pay_009",
+        "amount": 205020,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "stlbank_009",
+        "settledAt": "2026-08-22T22:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_010",
+        "sourceId": "pay_010",
+        "amount": 216720,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "stlbank_010",
+        "settledAt": "2026-08-22T23:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_011",
+        "sourceId": "rfnd_001",
+        "amount": 27645,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "stlbank_011",
+        "settledAt": "2026-08-23T00:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_012",
+        "sourceId": "rfnd_002",
+        "amount": 30570,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "stlbank_012",
+        "settledAt": "2026-08-23T01:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_013",
+        "sourceId": null,
+        "amount": 33495,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": "rfbank_003",
+        "settledAt": "2026-08-23T02:00:00.000Z"
+      },
+      {
+        "type": "settlement",
+        "id": "stl_014",
+        "sourceId": null,
+        "amount": 36420,
+        "fee": 237,
+        "tax": 43,
+        "currency": "INR",
+        "bankReference": null,
+        "settledAt": "2026-08-23T03:00:00.000Z"
+      }
+    ],
+    "webhooks": [
+      {
+        "type": "webhook",
+        "id": "wh_pay_001",
+        "eventId": "evt_pay_001_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_001",
+        "occurredAt": "2026-08-18T11:04:00.000Z",
+        "receivedAt": "2026-08-18T11:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_002",
+        "eventId": "evt_pay_002_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_002",
+        "occurredAt": "2026-08-18T13:04:00.000Z",
+        "receivedAt": "2026-08-18T13:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_003",
+        "eventId": "evt_pay_003_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_003",
+        "occurredAt": "2026-08-18T15:04:00.000Z",
+        "receivedAt": "2026-08-18T15:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_004",
+        "eventId": "evt_pay_004_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_004",
+        "occurredAt": "2026-08-18T17:04:00.000Z",
+        "receivedAt": "2026-08-18T17:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_005",
+        "eventId": "evt_pay_005_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_005",
+        "occurredAt": "2026-08-18T19:04:00.000Z",
+        "receivedAt": "2026-08-18T19:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_006",
+        "eventId": "evt_pay_006_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_006",
+        "occurredAt": "2026-08-18T21:04:00.000Z",
+        "receivedAt": "2026-08-18T21:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_007",
+        "eventId": "evt_pay_007_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_007",
+        "occurredAt": "2026-08-18T23:04:00.000Z",
+        "receivedAt": "2026-08-18T23:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_008",
+        "eventId": "evt_pay_008_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_008",
+        "occurredAt": "2026-08-19T01:04:00.000Z",
+        "receivedAt": "2026-08-19T01:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_009",
+        "eventId": "evt_pay_009_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_009",
+        "occurredAt": "2026-08-19T03:04:00.000Z",
+        "receivedAt": "2026-08-19T03:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_010",
+        "eventId": "evt_pay_010_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_010",
+        "occurredAt": "2026-08-19T05:04:00.000Z",
+        "receivedAt": "2026-08-19T05:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_011",
+        "eventId": "evt_pay_011_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_011",
+        "occurredAt": "2026-08-19T07:04:00.000Z",
+        "receivedAt": "2026-08-19T07:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_012",
+        "eventId": "evt_pay_012_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_012",
+        "occurredAt": "2026-08-19T09:04:00.000Z",
+        "receivedAt": "2026-08-19T09:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_013",
+        "eventId": "evt_pay_013_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_013",
+        "occurredAt": "2026-08-19T11:04:00.000Z",
+        "receivedAt": "2026-08-19T11:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_014",
+        "eventId": "evt_pay_014_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_014",
+        "occurredAt": "2026-08-19T13:04:00.000Z",
+        "receivedAt": "2026-08-19T13:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_015",
+        "eventId": "evt_pay_015_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_015",
+        "occurredAt": "2026-08-19T15:04:00.000Z",
+        "receivedAt": "2026-08-19T15:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_016",
+        "eventId": "evt_pay_016_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_016",
+        "occurredAt": "2026-08-19T17:04:00.000Z",
+        "receivedAt": "2026-08-19T17:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_017",
+        "eventId": "evt_pay_017_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_017",
+        "occurredAt": "2026-08-19T19:04:00.000Z",
+        "receivedAt": "2026-08-19T19:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_018",
+        "eventId": "evt_pay_018_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_018",
+        "occurredAt": "2026-08-19T21:04:00.000Z",
+        "receivedAt": "2026-08-19T21:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_019",
+        "eventId": "evt_pay_019_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_019",
+        "occurredAt": "2026-08-19T23:04:00.000Z",
+        "receivedAt": "2026-08-19T23:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_020",
+        "eventId": "evt_pay_020_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_020",
+        "occurredAt": "2026-08-20T01:04:00.000Z",
+        "receivedAt": "2026-08-20T01:05:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_001_late_authorized",
+        "eventId": "evt_pay_001_authorized",
+        "eventType": "payment.authorized",
+        "entityId": "pay_001",
+        "occurredAt": "2026-08-18T11:03:00.000Z",
+        "receivedAt": "2026-08-18T11:18:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_refund_001",
+        "eventId": "evt_refund_001",
+        "eventType": "refund.processed",
+        "entityId": "rfnd_001",
+        "occurredAt": "2026-08-18T23:03:00.000Z",
+        "receivedAt": "2026-08-18T23:04:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_refund_002",
+        "eventId": "evt_refund_002",
+        "eventType": "refund.processed",
+        "entityId": "rfnd_002",
+        "occurredAt": "2026-08-19T01:03:00.000Z",
+        "receivedAt": "2026-08-19T01:04:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_refund_003",
+        "eventId": "evt_refund_003",
+        "eventType": "refund.processed",
+        "entityId": "rfnd_003",
+        "occurredAt": "2026-08-19T03:03:00.000Z",
+        "receivedAt": "2026-08-19T03:04:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_refund_004",
+        "eventId": "evt_refund_004",
+        "eventType": "refund.processed",
+        "entityId": "rfnd_004",
+        "occurredAt": "2026-08-19T05:03:00.000Z",
+        "receivedAt": "2026-08-19T05:04:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_refund_005",
+        "eventId": "evt_refund_005",
+        "eventType": "refund.processed",
+        "entityId": "rfnd_005",
+        "occurredAt": "2026-08-19T07:03:00.000Z",
+        "receivedAt": "2026-08-19T07:04:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_refund_006",
+        "eventId": "evt_refund_006",
+        "eventType": "refund.processed",
+        "entityId": "rfnd_006",
+        "occurredAt": "2026-08-19T09:03:00.000Z",
+        "receivedAt": "2026-08-19T09:04:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_refund_007",
+        "eventId": "evt_refund_007",
+        "eventType": "refund.processed",
+        "entityId": "rfnd_007",
+        "occurredAt": "2026-08-19T11:03:00.000Z",
+        "receivedAt": "2026-08-19T11:04:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_refund_008",
+        "eventId": "evt_refund_008",
+        "eventType": "refund.processed",
+        "entityId": "rfnd_008",
+        "occurredAt": "2026-08-19T13:03:00.000Z",
+        "receivedAt": "2026-08-19T13:04:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_settlement_001",
+        "eventId": "evt_settlement_001",
+        "eventType": "settlement.processed",
+        "entityId": "stl_001",
+        "occurredAt": "2026-08-22T14:00:00.000Z",
+        "receivedAt": "2026-08-22T14:01:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_settlement_002",
+        "eventId": "evt_settlement_002",
+        "eventType": "settlement.processed",
+        "entityId": "stl_002",
+        "occurredAt": "2026-08-22T15:00:00.000Z",
+        "receivedAt": "2026-08-22T15:01:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_settlement_003",
+        "eventId": "evt_settlement_003",
+        "eventType": "settlement.processed",
+        "entityId": "stl_003",
+        "occurredAt": "2026-08-22T16:00:00.000Z",
+        "receivedAt": "2026-08-22T16:01:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_settlement_004",
+        "eventId": "evt_settlement_004",
+        "eventType": "settlement.processed",
+        "entityId": "stl_004",
+        "occurredAt": "2026-08-22T17:00:00.000Z",
+        "receivedAt": "2026-08-22T17:01:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_settlement_005",
+        "eventId": "evt_settlement_005",
+        "eventType": "settlement.processed",
+        "entityId": "stl_005",
+        "occurredAt": "2026-08-22T18:00:00.000Z",
+        "receivedAt": "2026-08-22T18:01:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_settlement_006",
+        "eventId": "evt_settlement_006",
+        "eventType": "settlement.processed",
+        "entityId": "stl_006",
+        "occurredAt": "2026-08-22T19:00:00.000Z",
+        "receivedAt": "2026-08-22T19:01:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_settlement_007",
+        "eventId": "evt_settlement_007",
+        "eventType": "settlement.processed",
+        "entityId": "stl_007",
+        "occurredAt": "2026-08-22T20:00:00.000Z",
+        "receivedAt": "2026-08-22T20:01:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_settlement_008",
+        "eventId": "evt_settlement_008",
+        "eventType": "settlement.processed",
+        "entityId": "stl_008",
+        "occurredAt": "2026-08-22T21:00:00.000Z",
+        "receivedAt": "2026-08-22T21:01:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_settlement_009",
+        "eventId": "evt_settlement_009",
+        "eventType": "settlement.processed",
+        "entityId": "stl_009",
+        "occurredAt": "2026-08-22T22:00:00.000Z",
+        "receivedAt": "2026-08-22T22:01:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_settlement_010",
+        "eventId": "evt_settlement_010",
+        "eventType": "settlement.processed",
+        "entityId": "stl_010",
+        "occurredAt": "2026-08-22T23:00:00.000Z",
+        "receivedAt": "2026-08-22T23:01:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_settlement_011",
+        "eventId": "evt_settlement_011",
+        "eventType": "settlement.processed",
+        "entityId": "stl_011",
+        "occurredAt": "2026-08-23T00:00:00.000Z",
+        "receivedAt": "2026-08-23T00:01:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_settlement_012",
+        "eventId": "evt_settlement_012",
+        "eventType": "settlement.processed",
+        "entityId": "stl_012",
+        "occurredAt": "2026-08-23T01:00:00.000Z",
+        "receivedAt": "2026-08-23T01:01:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_002_retry",
+        "eventId": "evt_pay_002_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_002",
+        "occurredAt": "2026-08-18T13:04:00.000Z",
+        "receivedAt": "2026-08-18T13:35:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_003_retry",
+        "eventId": "evt_pay_003_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_003",
+        "occurredAt": "2026-08-18T15:04:00.000Z",
+        "receivedAt": "2026-08-18T15:35:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_004_retry",
+        "eventId": "evt_pay_004_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_004",
+        "occurredAt": "2026-08-18T17:04:00.000Z",
+        "receivedAt": "2026-08-18T17:35:00.000Z"
+      },
+      {
+        "type": "webhook",
+        "id": "wh_pay_005_retry",
+        "eventId": "evt_pay_005_captured",
+        "eventType": "payment.captured",
+        "entityId": "pay_005",
+        "occurredAt": "2026-08-18T19:04:00.000Z",
+        "receivedAt": "2026-08-18T19:35:00.000Z"
+      }
+    ]
+  }
+}
